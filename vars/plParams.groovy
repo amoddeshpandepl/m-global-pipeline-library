@@ -1,6 +1,7 @@
 def call() {
     return [
 		maven: [
+				maven: 'maven',
 				mavenSettingsConfig:  'maven-settings',
 				ciCmdExtraFlags: '-DskipTests'
 		],
