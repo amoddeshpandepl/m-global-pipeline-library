@@ -2,7 +2,8 @@ def call() {
     return [
 		maven: [
 				maven: 'maven',
-				mavenSettingsConfig:  'maven-settings'
+				mavenSettingsConfig:  'maven-settings',
+				ciCmdExtraFlags: '-DskipTests'
 		],
 		org: 'Self',
 		envs : [
